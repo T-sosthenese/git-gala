@@ -16,6 +16,8 @@ rsvpForm.addEventListener('submit', function (event) {
     if (attendance === 'Yes') {
         // Displaying party emoji and positive image
         confirmationMessage.innerHTML = '<p>🎉 Thank you for RSVPing! We look forward to seeing you at the Gif Gala.</p>';
+    } else {
+        confirmationMessage.innerHTML = '<p>😢 We will miss you at the gala</p>'
     }
 
     // Display the confirmation message
