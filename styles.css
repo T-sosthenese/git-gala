@@ -12,6 +12,9 @@ body {
     background-color: #f0f0f0; /* Light gray background */
     color: #333; /* Dark text color */
     font-family: 'Arial', sans-serif; /* Use a common sans-serif font */
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.75); /* Creates a semitransparent background */
 }
 
 /* Style the header */
