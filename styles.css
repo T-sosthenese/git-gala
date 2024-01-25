@@ -1,0 +1,126 @@
+/* Apply a global reset for margin and padding */
+body, h1, p, label, input, select, button {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    color: #00afb9;
+    text-align: center;
+}
+/* Set a background color and text color for the body */
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text color */
+    font-family: 'Arial', sans-serif; /* Use a common sans-serif font */
+}
+
+/* Style the header */
+header {
+    background-color: #f07167; /* Purple background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the subheading */
+.subheading {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.main-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff; /* White background for the form container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* Style the description section */
+.description {
+    padding: 20px;
+    text-align: left;
+}
+
+/* ... (Previous styles remain unchanged) */
+
+/* Style the RSVP section */
+.rsvp-section {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff; /* White background for the form container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    text-align: left;
+}
+
+/* Style the RSVP heading */
+.rsvp-section h3 {
+    color: #00afb9; /* Purple color for the heading */
+    text-align: left; /* Align the heading to the left */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+/* Style the form container */
+#rsvpForm {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff; /* White background for the form container */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Style the form elements */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #471869; /* Purple color for labels */
+}
+
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00afb9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    /* Hover effect */
+    &:hover {
+        background-color: #2e0c3e;
+    }
+}
+
+/* Style the confirmation message */
+#confirmationMessage {
+    display: none; /* Initially hide the confirmation message */
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50; /* Green background for confirmation */
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 600px) {
+    #rsvpForm {
+        max-width: 100%;
+    }
+}
+

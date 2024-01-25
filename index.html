@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gif Gala RSVP</title>
+</head>
+
+<body>
+
+    <!-- Invitation Header -->
+    <header>
+        <h1>You are invited to the Gif Gala: Where memes come to life</h1>
+        <p class="subheading">7/21/23</p>
+    </header>
+
+    <!-- Main Content Container -->
+    <div class="main-container">
+        <!-- Short Description of Gif Gala -->
+        <section class="description">
+            <h3>About the Gala</h3>
+            <p>
+                Welcome to the Gif Gala, where guests dress as their favorite GIFs or memes.
+                Join us for a night of laughter, fun, and endless creativity!
+            </p>
+        </section>
+        <section class="rsvp-section">
+            <!-- Confirmation Message Display Area -->
+            <div id="confirmationMessage"></div>
+            <h3>RSVP</h3>
+            <!-- RSVP Form -->
+            <form id="rsvpForm">
+                <!-- Email Field -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+                <!-- Attendance Field -->
+                <label for="attendance">Will you attend?</label>
+                <select id="attendance" name="attendance" required>
+                    <option value="Yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+
+                <!-- Submit Button -->
+                <button type="submit">Submit RSVP</button>
+            </form>
+        </section>
+    </div>
+    <!-- Include JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
